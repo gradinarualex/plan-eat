@@ -4,3 +4,6 @@
 # venv created by poetry
 .venv
 /venv
+
+# samples data used for development
+/samples/*
