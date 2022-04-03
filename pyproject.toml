@@ -1,0 +1,21 @@
+ ```
+ [tool.poetry]
+ name = "plan-eat"
+ version = "0.0.1"
+ description = "{free text description}"
+ readme = "README.md"
+ repository = "{git repo link}"
+ documentation = "{site url if applicable}"
+ authors = [
+     "Alexandru Gradinaru gradinaru.alex@gmail.com"
+ ]
+
+ [tool.poetry.dependencies]
+ python = "==3.9.6"
+
+ [tool.poetry.dev-dependencies]
+
+ [build-system]
+ requires = ["poetry-core>=1.0.0"]
+ build-backend = "poetry.core.masonry.api"
+ ```
